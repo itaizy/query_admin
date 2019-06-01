@@ -1,0 +1,8 @@
+*.log
+*.err
+logs/
+.idea
+dist/
+node_modules/
+index_prod.html
+
