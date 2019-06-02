@@ -69,7 +69,7 @@
                 columns1: [
                     {
                         title: '名称',
-                        key: 'name',
+                        key: 'spname',
                         // className: 'demo-table-info-cell-name',
                         minWidth: 250
                     },
@@ -92,38 +92,38 @@
                     'province': '北京',
                     'year': 2017,
                     'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京科技大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '理科试验班', 'min': 630, 'max': 640 },
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640 },
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640 },
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640 },
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
                     },
                     {
                         'uname': '北京科技大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '理科试验班', 'min': 630, 'max': 640 },
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640 },
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640 },
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640 },
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
                     },
                     {
                         'uname': '北京科技大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '理科试验班', 'min': 630, 'max': 640 },
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640 },
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640 },
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640 },
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
                     }
                 ],
                 score1: [ 
@@ -132,104 +132,104 @@
                         'province':'北京',
                         'year':2017,
                         'uscore': [ 
-                        { 'name':'电子信息类（通信与控制）','min':635, 'max':640}, 
-                        { 'name':'电气工程及其自动化', 'min':632, 'max':639}, 
-                        { 'name': '软件工程', 'min': 630, 'max': 640}, 
-                        { 'name': '计算机类', 'min': 630, 'max': 640}, 
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640}]
+                        { 'spname':'电子信息类（通信与控制）','min':635, 'max':640}, 
+                        { 'spname':'电气工程及其自动化', 'min':632, 'max':639}, 
+                        { 'spname': '软件工程', 'min': 630, 'max': 640}, 
+                        { 'spname': '计算机类', 'min': 630, 'max': 640}, 
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640}]
                     },
                     {
                         'uname':'北京科技大学',
                         'province': '北京',
                         'year':2017,
                         'uscore':[
-                        { 'name': '理科试验班', 'min': 630, 'max': 640},
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640},
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640}]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640},
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640},
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640}]
                     },
                     {
                         'uname': '北京科技大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '理科试验班', 'min': 630, 'max': 640 },
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640 },
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640 },
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640 },
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
                     },
                     {
                         'uname': '北京科技大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '理科试验班', 'min': 630, 'max': 640 },
-                        { 'name': '经济与贸易类', 'min': 626, 'max': 640 },
-                        { 'name': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
+                        { 'spname': '理科试验班', 'min': 630, 'max': 640 },
+                        { 'spname': '经济与贸易类', 'min': 626, 'max': 640 },
+                        { 'spname': '工科试验班类（卓越计划）', 'min': 625, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     },
                     {
                         'uname': '北京交通大学',
                         'province': '北京',
                         'year': 2017,
                         'uscore': [
-                        { 'name': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
-                        { 'name': '电气工程及其自动化', 'min': 632, 'max': 639 },
-                        { 'name': '软件工程', 'min': 630, 'max': 640 },
-                        { 'name': '计算机类', 'min': 630, 'max': 640 },
-                        { 'name': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
+                        { 'spname': '电子信息类（通信与控制）', 'min': 635, 'max': 640 },
+                        { 'spname': '电气工程及其自动化', 'min': 632, 'max': 639 },
+                        { 'spname': '软件工程', 'min': 630, 'max': 640 },
+                        { 'spname': '计算机类', 'min': 630, 'max': 640 },
+                        { 'spname': '文科试验班类（语言与传播）', 'min': 630, 'max': 640 }]
                     }
                 ],
                 data1: [
@@ -261,12 +261,6 @@
             }
         },
         methods: {
-            created() {
-                // console.log('this.$route.params.userId');
-                // console.log(this.$route.params);
-                // console.log(this.$route.params.userId);
-                // this.userid = this.$route.params['userId'];
-            },
             handleStart() {
                 this.$Modal.info({
                     title: 'Bravo',
@@ -284,13 +278,13 @@
                 this.formItem.inputS = ''
             },
             handleReachBottom () {
-                console.log('99999999999999999')
                 return new Promise(resolve => {
                     setTimeout(() => {
-                        const last = this.scoreDetail[this.scoreDetail.length - 1];
-                        for (let i = 1; i < 4; i++) {
-                            this.scoreDetail.push(last);
-                        }
+                        axios.get('/serverapi/qqscorefree', {params: {score:this.formItem.inputS,local_type_id:this.formItem.selectT}}).then(response => {
+                            let kp = response.data.data
+                            this.scoreDetail = JSON.parse('{"sd": '+ kp.replace(new RegExp('\'','g'),'"') +'}')['sd']
+                            // this.scoreDetail = JSONArray.fromObject(response.data.data);
+                        })
                         resolve();
                     }, 2000);
                 });
@@ -299,6 +293,14 @@
         mounted: function () {
             this.formItem = _.cloneDeep(this.$route.query);
             this.tableHeight = window.innerHeight - this.$refs.table.$el.offsetTop - 40
-        }
+            axios.get('/serverapi/qqscorefree', {params: {score:this.formItem.inputS,local_type_id:this.formItem.selectT}}).then(response => {
+                let kp = response.data.data
+                this.scoreDetail = JSON.parse('{"sd": '+ kp.replace(new RegExp('\'','g'),'"') +'}')['sd']
+                // this.scoreDetail = JSONArray.fromObject(response.data.data);
+            })
+        },
+        created() {
+            
+        },
     };
 </script>

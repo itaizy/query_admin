@@ -31,5 +31,23 @@ module.exports = merge(webpackBaseConfig, {
             template: './src/template/index.ejs',
             inject: false
         })
-    ]
+    ],
+    devServer: {
+        proxy: { 
+            "/serverapi": "http://129.28.142.81"
+            // proxy URLs to backend development server
+            // "/zhongrong": {
+            //     target: "http://erp-dev.mckintey.com/",
+            //     changeOrigin: true
+            // }
+        },
+        compress: true, // enable gzip compression
+        historyApiFallback: true, // true for index.html upon 404, object for multiple paths
+        hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+        https: false, // true for self-signed, object for cert authority
+        noInfo: true, // only errors & warns on hot reload,
+        allowedHosts: [
+            'erp-dev.mckintey.com',
+        ]
+    }
 });
