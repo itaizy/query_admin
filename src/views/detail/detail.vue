@@ -268,8 +268,13 @@
                 });
             },
             handleSubmit (name) {
-                console.log(name)
-                this.$Message.success('输入分数为:' + this.formItem.inputS);
+                // console.log(name)
+                // this.$Message.success('输入分数为:' + this.formItem.inputS);
+                axios.get('/serverapi/qqscorefree', {params: {score:this.formItem.inputS,local_type_id:this.formItem.selectT}}).then(response => {
+                    let kp = response.data.data
+                    this.scoreDetail = JSON.parse('{"sd": '+ kp.replace(new RegExp('\'','g'),'"') +'}')['sd']
+                    // this.scoreDetail = JSONArray.fromObject(response.data.data);
+                })
             },
             handleReset (name) {
                 this.$refs[name].resetFields();
