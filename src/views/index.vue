@@ -61,7 +61,7 @@
                     </h2>
                     <h2>
                         <FormItem>
-                            <Button type="primary" @click="handleSubmit('formItem')">登录</Button>
+                            <Button type="primary" @click="handleSubmit('formItem')">查询</Button>
                             <Button @click="handleReset('formItem')" style="margin-left: 8px">重置</Button>
                         </FormItem>
                     </h2>
