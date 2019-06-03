@@ -51,7 +51,7 @@
             </h3>
         </Row>
         <Row class-name="rowc" type="flex" justify="center" align="middle">
-            <h2>共有&nbsp; <font style='color:red;font-size:30px'>{{counta}}</font>&nbsp;条专业可供选择</h2>
+            <h2>共有&nbsp; <font style='color:red;font-size:30px'>{{counta}}</font>&nbsp;条专业数据可供参考</h2>
         </Row>
         <Scroll :on-reach-bottom="handleReachBottom" :distance-to-edge=20 :height="tableHeight" ref="table">
             <Row class-name="rowc" v-for="(one,idx) in scoreDetail" :key="idx">
@@ -152,6 +152,7 @@
             handleReachBottom () {
                 return new Promise(resolve => {
                     setTimeout(() => {
+                        this.tableHeight = window.innerHeight
                         axios.get('/serverapi/qqscorefree', {
                             params: {
                                 score:this.formItem.inputS,
@@ -172,7 +173,8 @@
         },
         mounted: function () {
             this.formItem = _.cloneDeep(this.$route.query);
-            this.tableHeight = window.innerHeight - this.$refs.table.$el.offsetTop - 40
+            // this.tableHeight = window.innerHeight - this.$refs.table.$el.offsetTop - 40
+            this.tableHeight = window.innerHeight
             axios.get('/serverapi/qqscorefree', { 
                 params: { 
                     score: this.formItem.inputS, 

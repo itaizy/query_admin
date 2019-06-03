@@ -39,7 +39,7 @@
                     <img src="https://raw.githubusercontent.com/iview/iview/master/assets/logo.png">
                 </h1>
                 <h2>
-                    <p>Welcome to your Query app!</p>
+                    <p>欢迎来到"金状元"，高考志愿不用愁</p>
                 </h2>
                 <Form ref="formItem" :model="formItem" :rules="ruleValidate">
                     <h2>
