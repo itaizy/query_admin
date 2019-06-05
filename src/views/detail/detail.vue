@@ -48,6 +48,28 @@
             <Col span="2"></Col>
             <Col span="1"></Col>
         </Row>
+        <Row class-name="rowc" type="flex" justify="center" align="middle" @click.native="handleFee">
+            <Col span="2"></Col>
+            <Col span="6">
+                <Select placeholder="高校区域" disabled>
+                    <Option value="13">河北</Option>
+                    <Option value="37">山东</Option>
+                </Select>
+            </Col>
+            <Col span="1"></Col>
+            <Col span="6">
+                <Select placeholder="全量数据" disabled>
+                    <Option value="1">理科</Option>
+                    <Option value="2">文科</Option>
+                </Select>
+            </Col>
+            <Col span="1"></Col>
+            <Col span="6">
+                <Input placeholder="录取概率" disabled number></Input>
+            </Col>
+            <Col span="2"></Col>
+            <Col span="1"></Col>
+        </Row>
         <Row class-name="rowc" type="flex" justify="center" align="middle">
             <h3 v-for="(or,idx) in srank" :key="idx">
                 {{or[0]}}年全省排{{or[1]}}名 &nbsp;
@@ -72,20 +94,8 @@
         <Row style="background:#eee;padding:20px">
             <Card :bordered="false">
                 <p slot="title">加入VIP享受更多服务</p>
-                <Select value="1">
-                    <Option value="1">华北</Option>
-                    <Option value="2">东北</Option>
-                    <Option value="3">华东</Option>
-                    <Option value="4">华南</Option>
-                    <Option value="5">西北</Option>
-                    <Option value="6">西南</Option>
-                </Select>
-                <Select value="3">
-                    <Option value="1">最优排序</Option>
-                    <Option value="2">历史对照</Option>
-                    <Option value="3">录取概率</Option>
-                </Select>
-                <Button type="primary" shape="circle" disabled icon="ios-search">加入</Button>
+                <img src="../../asset/images/qrcode_for_gh_bd5721f996b8_258.jpg"/>
+                <!-- <Button type="primary" shape="circle" disabled icon="ios-search">加入</Button> -->
             </Card>
         </Row>
         <Row>
@@ -187,6 +197,9 @@
             },
             clear () {
                 this.formItem.inputS = ''
+            },
+            handleFee () {
+                this.$Message.success('加入VIP可用!');
             },
             handleReachBottom () {
                 return new Promise(resolve => {
