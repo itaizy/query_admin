@@ -93,7 +93,7 @@
         <!-- </Scroll> -->
         <Row style="background:#eee;padding:20px">
             <Card :bordered="false">
-                <p slot="title">加入VIP享受更多服务</p>
+                <p slot="title">关注微信公众号享受更多VIP服务</p>
                 <img src="../../asset/images/qrcode_for_gh_bd5721f996b8_258.jpg"/>
                 <!-- <Button type="primary" shape="circle" disabled icon="ios-search">加入</Button> -->
             </Card>
@@ -178,7 +178,7 @@
             handleSubmit (name) {
                 // console.log(name)
                 // this.$Message.success('输入分数为:' + this.formItem.inputS);
-                axios.get('/serverapi/qqscorefree', {
+                axios.get('./serverapi/qqscorefree', {
                     params: {
                         score:this.formItem.inputS,
                         local_type_id:this.formItem.selectT,
@@ -205,7 +205,7 @@
                 return new Promise(resolve => {
                     setTimeout(() => {
                         // this.tableHeight = window.innerHeight
-                        axios.get('/serverapi/qqscorefree', {
+                        axios.get('./serverapi/qqscorefree', {
                             params: {
                                 score:this.formItem.inputS,
                                 local_type_id:this.formItem.selectT,
@@ -227,7 +227,7 @@
             this.formItem = _.cloneDeep(this.$route.query);
             // this.tableHeight = window.innerHeight - this.$refs.table.$el.offsetTop - 40
             // this.tableHeight = window.innerHeight
-            axios.get('/serverapi/qqscorefree', { 
+            axios.get('./serverapi/qqscorefree', { 
                 params: { 
                     score: this.formItem.inputS, 
                     local_type_id: this.formItem.selectT,

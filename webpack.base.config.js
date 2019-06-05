@@ -6,9 +6,11 @@ module.exports = {
     entry: {
         main: './src/main',
         vendors: './src/vendors',
+        // assetsPublicPath: '/kg/',
     },
     output: {
-        path: path.join(__dirname, './dist')
+        path: path.join(__dirname, './dist'),
+        publicPath: './'
     },
     module: {
         rules: [{
